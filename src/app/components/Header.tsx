@@ -1,5 +1,5 @@
 import React from "react"
-// import "../styles/header-style.scss"
+import "../custom-styles/styles-misc.scss"
 
 // interface HeaderProps {
 //     introRef: any,
