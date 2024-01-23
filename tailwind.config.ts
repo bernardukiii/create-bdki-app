@@ -17,7 +17,6 @@ const config: Config = {
         'bdki-darkest': '#15191d',
         'bdki-dark': '#262626',
         'bdki-dark-blue': '#313b4b',
-        'bdki-grey': '#6f6f6f',
         'bdki-light-grey': '#6f6f6f',
         'bdki-lighter-grey': '#BFBFBF'
       },

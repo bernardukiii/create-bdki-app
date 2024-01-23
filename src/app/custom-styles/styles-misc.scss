@@ -7,6 +7,26 @@
     backdrop-filter: blur(2.7px);
     -webkit-backdrop-filter: blur(2.7px);
 }
+
+// Custom bdki scrollbars
+::-webkit-scrollbar {
+    width: .3rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    width: .5rem;
+    background: theme('colors.bdki-light-grey');
+    border-radius: 1rem;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    width: .5rem;
+    background: theme('colors.bdki-dark');
+    border-radius: 1rem;
+
+}
 // Fun animations for icons if desired
 @keyframes background-move {
     0% { background-position: 0 0, 0 0; }
