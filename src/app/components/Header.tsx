@@ -1,23 +1,7 @@
 import React from "react"
 import "../custom-styles/styles-misc.scss"
 
-// interface HeaderProps {
-//     introRef: any,
-//     projectsRef: any,
-//     aboutRef: any,
-//     stackRef: any,
-//     contactRef: any
-// }
-
 const Header = () => {
-
-    const scrollToSection = (ref: any) => {
-        ref.current.scrollIntoView({
-          behavior: "smooth",
-          block: "start",
-        })
-    }
-
     return (
         <>
             <header className="sticky top-0 w-full z-10 flex justify-center items-center text-white font-semibold text-sm md:text-base lg:text-base border-b-2 border-b-bdki-grey bdki-glassify">
